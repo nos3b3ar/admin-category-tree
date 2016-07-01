@@ -27,7 +27,7 @@ You found a bug or have any questions or wishes? Please let me comment there OR 
 
 == Frequently Asked Questions ==
 
-= Why moves a submenu to the top of the list (and out of the tree) after being selected? =
+= Why moves a category to the top of the list (and out of the submenu-tree) after being selected? =
 
 By default Wordpress show all selected categories on top of the list. I don't changed this behavior.
 
