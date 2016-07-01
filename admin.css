@@ -1,0 +1,34 @@
+/* Generate Tree View for Categories */
+
+/* removes the 'to primary term'-link */
+ul.categorychecklist .wpseo-make-primary-term {
+  display: none;
+}
+
+ul.categorychecklist li.is-parent > label {
+  font-weight: bold;
+}
+
+ul.categorychecklist li ul.children {
+  display: none;
+}
+
+ul.categorychecklist li.open > ul.children {
+  display: block;
+}
+
+ul.categorychecklist .toggler {
+  float: right;
+  color: #666;
+  padding-top: 5px;
+  font:400 14px/1 dashicons!important;
+  cursor: pointer;
+}
+
+ul.categorychecklist li.open > .toggler::after {
+  content: " \f460";
+}
+
+ul.categorychecklist .toggler::after {
+  content: " \f132";
+}
