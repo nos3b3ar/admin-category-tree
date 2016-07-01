@@ -32,6 +32,6 @@ https://wordpress.org/plugins/admin-category-tree/
 
 
 ## Bugs & Support
-=======
+
 Please raise any bug reports or enhancement requests here. Pull requests are always welcome.
 
