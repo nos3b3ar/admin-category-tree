@@ -11,12 +11,12 @@ It helps to see the only the first level categories at first. You can open the s
 * Toggle(open/close) submenus by + / - Buttons
 * Categories appears in bold if there have a submenu
 
->> Note: It's very lightweight plugin. A simple solution by adding few lines of CSS an JS to the admin-area. less code, simple work. ;)
+> Note: It's very lightweight plugin. A simple solution by adding few lines of CSS an JS to the admin-area. less code, simple work. ;)
 
 
 
-Installation
-============
+## Installation
+
 This plugin can be installed...
 - by visiting the WordPress.org plugin page:
 https://wordpress.org/plugins/admin-category-tree/
@@ -24,15 +24,14 @@ https://wordpress.org/plugins/admin-category-tree/
 - **OR** manually by download or clone the project-files into to the `/wp-content/plugins/admin-category-tree` directory of your wordpress.
 
 
-Frequently Asked Questions
-===========================
+## Frequently Asked Questions
 
->> **Q:** Why moves a category to the top of the list (and out of the submenu-tree) after being selected?
+> **Q:** Why moves a category to the top of the list (and out of the submenu-tree) after being selected?
 
->> **A:** By default Wordpress show all selected categories on top of the list. I don't changed this behavior.
+> **A:** By default Wordpress show all selected categories on top of the list. I don't changed this behavior.
 
 
-Bugs & Support
+## Bugs & Support
 =======
 Please raise any bug reports or enhancement requests here. Pull requests are always welcome.
 
