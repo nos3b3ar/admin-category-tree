@@ -17,11 +17,15 @@ It helps to see the only the first level categories at first. You can open the s
 
 ## Installation
 
-This plugin can be installed...
-- by visiting the WordPress.org plugin page:
+1. This plugin can be install by...
+1.1 Visiting the WordPress.org plugin page:
 https://wordpress.org/plugins/admin-category-tree/
-- **OR** install the plugin through the WordPress plugins screen directly. Search for "Admin Category Tree"
-- **OR** manually by download or clone the project-files into to the `/wp-content/plugins/admin-category-tree` directory of your wordpress.
+1.2 __OR__ Install the plugin through the WordPress plugins screen directly. Search for "Admin Category Tree"
+1.3 __OR__ Manually by download the zip-file or clone ´git clone https://github.com/nos3b3ar/admin-category-tree.git´ the project-files into to a new folder `/wp-content/plugins/admin-category-tree` directory of your wordpress.
+4. Go to the Plugins screen and click __Activate__.
+
+Check out the Codex for more information about [installing plugins manually](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation).
+
 
 
 ## Frequently Asked Questions

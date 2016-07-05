@@ -49,12 +49,10 @@ By default Wordpress show all selected categories on top of the list. I don't ch
 
 == Changelog ==
 
+= 1.1 =
+Refactored Code and updated readme
+
 = 1.0 =
 * First version
 
-
-== Upgrade Notice ==
-
-= 1.0 =
-First Version
 
