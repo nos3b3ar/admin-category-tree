@@ -3,7 +3,7 @@
   "slug": "admin-category-tree",
   "author": "Stefan Andernach",
   "author_profile": "https://profiles.wordpress.org/nos3b3ar/",
-  "version": "1.4",
+  "version": "1.4.1",
   "download_url": "https://github.com/nos3b3ar/admin-category-tree/archive/refs/heads/master.zip",
   "requires": "4.5.3",
   "tested": "5.9",
@@ -12,10 +12,9 @@
   "sections": {
     "description": "Changes the Admin Category-View (in all Post-Types) to an collapsed Tree-View with (+)/(-) buttons",
     "installation": "Click the activate button and that's it.",
-    "changelog": "<h4>1.4</h4>\n<ul>\n<li>New: supports Gutenberg-Editor</li>\n</ul>\n<h4>1.3</h4>\n<p>New Features:<br>\n<ul>\n<li>The number of sub-items is now displayed</li>\n<li>Parents with selected sub-items are open</li>\n</ul>\n<h4>1.2</h4>\n<ul>\n<li>Tested for WordPress 5.4.1</li>\n<li>Now, a selected item no more jump’s out of the tree to the top of the menu.</li>\n</ul>\n<h4>1.1</h4>\n<p>Refactored Code and updated readme</p>\n<h4>1.0</h4>\n<ul>\n<li>First version</li>\n</ul>"
+    "changelog": "<h4>1.4</h4>\n<ul>\n<li>New: Supports Gutenberg-Editor now too</li>\n</ul>\n<h4>1.3</h4>\n<ul>\n<li>New: The number of sub-items is now displayed</li>\n<li>New: Parents with selected sub-items are open</li>\n</ul>\n<h4>1.2</h4>\n<ul>\n<li>Tested for WordPress 5.4.1</li>\n<li>Now, a selected item no more jump’s out of the tree to the top of the menu.</li>\n</ul>\n<h4>1.1</h4>\n<p>Refactored Code and updated readme</p>\n<h4>1.0</h4>\n<ul>\n<li>First version</li>\n</ul>"
   },
   "banners": {
-    "low": "https://rudrastyh.com/wp-content/uploads/updater/banner-772x250.jpg",
-    "high": "https://rudrastyh.com/wp-content/uploads/updater/banner-1544x500.jpg"
+    "low": "https://github.com/nos3b3ar/admin-category-tree/blob/master/banner-772x250.png"
   }
 }

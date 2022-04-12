@@ -4,7 +4,7 @@ Donate link:
 Tags: admin, categories, tree, menu
 Requires at least: 4.5.3
 Tested up to: 5.9.3
-Stable tag: 1.4
+Stable tag: 1.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,6 +16,7 @@ This plugin is very useful if you have a lot of categories (or custom taxonomies
 It helps to see the only the first level categories at first. You can open the submenus by click on the +buttons
 
 Features:
+* Supports Gutenberg-Editor and Classic-Editor
 * Submenus are collapsed-in by default, except they have selected sub-items
 * The number of sub-items are displayed
 * Toggle (open/close) the submenus by + / - buttons
@@ -48,17 +49,19 @@ nothing here yet :)
 
 == Changelog ==
 
+= 1.4 =
+* New: Supports Gutenberg-Editor now too
+
 = 1.3 =
-New Features:
-* The number of sub-items is now displayed
-* Parents with selected sub-items are open
+* New: The number of sub-items is now displayed
+* New: Parents with selected sub-items are open
 
 = 1.2 =
 * Tested for Wordpress 5.4.1
 * Now, a selected item no more jump's out of the tree to the top of the menu.
 
 = 1.1 =
-Refactored Code and updated readme
+* Refactored Code and updated readme
 
 = 1.0 =
 * First version

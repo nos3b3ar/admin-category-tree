@@ -12,7 +12,7 @@ if( ! class_exists( 'actUpdateChecker' ) ) {
 		public function __construct() {
 
 			$this->plugin_slug = plugin_basename( __DIR__ );
-			$this->version = '1.4';
+			$this->version = '1.4.1';
 			$this->cache_key = 'act_custom_upd';
 			$this->cache_allowed = false;
       $this->url = 'https://github.com/nos3b3ar/admin-category-tree/blob/master/update-version.json';
