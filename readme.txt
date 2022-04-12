@@ -3,8 +3,8 @@ Contributors: nos3b3ar
 Donate link:
 Tags: admin, categories, tree, menu
 Requires at least: 4.5.3
-Tested up to: 4.5.3
-Stable tag: 1.0
+Tested up to: 5.9.3
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,13 +12,15 @@ Changes the classic Admin-Category-View to an collapsed Tree-View with +/- butto
 
 == Description ==
 
-This plugin is very useful if you have a lot of categories in more then one level.
+This plugin is very useful if you have a lot of categories (or custom taxonomies) in more then one level.
 It helps to see the only the first level categories at first. You can open the submenus by click on the +buttons
 
 Features:
-* Submenus are collapsed-in by default
-* Toggle(open/close) submenus by + / - Buttons
-* Categories appears in bold if there have a submenu
+* Submenus are collapsed-in by default, except they have selected sub-items
+* The number of sub-items are displayed
+* Toggle (open/close) the submenus by + / - buttons
+* The font is bold if there are sub-items
+* It works with any custom taxonomy too
 
 Notes:
 It's very lightweight plugin. A simple solution by adding few lines of CSS an JS to the admin-area. less code, simple work. ;)
@@ -27,9 +29,7 @@ You found a bug or have any questions or wishes? Please let me comment there OR 
 
 == Frequently Asked Questions ==
 
-= Why moves a category to the top of the list (and out of the submenu-tree) after being selected? =
-
-By default Wordpress show all selected categories on top of the list. I don't changed this behavior.
+nothing here yet :)
 
 
 
@@ -43,11 +43,19 @@ By default Wordpress show all selected categories on top of the list. I don't ch
 
 == Screenshots ==
 
-1. Submenus are collapsed-in by default
-2. After clicking Products+ and Clothes+
+1. Submenus are collapsed-in by default, except they have selected sub-items
 
 
 == Changelog ==
+
+= 1.3 =
+New Features:
+* The number of sub-items is now displayed
+* Parents with selected sub-items are open
+
+= 1.2 =
+* Tested for Wordpress 5.4.1
+* Now, a selected item no more jump's out of the tree to the top of the menu.
 
 = 1.1 =
 Refactored Code and updated readme

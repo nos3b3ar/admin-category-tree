@@ -3,7 +3,7 @@
 Plugin Name: Admin Category Tree
 Plugin URI:
 Description: Changes the Admin Category-View (in all Post-Types) to an collapsed Tree-View with (+)/(-) buttons
-Version: 1.2
+Version: 1.4
 Author: Stefan Andernach
 Author URI:
 License:     GPL2
@@ -17,15 +17,16 @@ if ( ! defined( 'ABSPATH' ) ) die( 'No direct access allowed' );
 
 add_action( 'admin_enqueue_scripts', 'actree_enqueue_styles_and_scripts' );
 
-define('ACTREE_VERSION','1.2');
+define('ACTREE_VERSION','1.4');
 define('ACTREE_NAME','admin-category-tree');
 
+require_once("update-checker.php");
 
 function actree_enqueue_styles_and_scripts($hook)
 {
 	$path = pathinfo( dirname( plugin_basename( __FILE__ ) ) );
 	$plugin_url = plugins_url($path['filename']);
-	
+
   if ('post.php' !== $hook && 'post-new.php' !== $hook) {
     return;
   }

@@ -21,7 +21,15 @@ ul.categorychecklist .toggler {
   float: right;
   color: #666;
   padding-top: 5px;
-  font:400 14px/1 dashicons!important;
+  font:400 14px/1 dashicons !important;
+  cursor: pointer;
+}
+
+ul.categorychecklist .counter {
+  float: right;
+  color: #666;
+  font-size: 11px;
+  line-height: 22px;
   cursor: pointer;
 }
 
@@ -30,5 +38,45 @@ ul.categorychecklist li.open > .toggler::after {
 }
 
 ul.categorychecklist .toggler::after {
+  content: " \f132";
+}
+
+
+/* for Gutenberg-Editor */
+div.editor-post-taxonomies__hierarchical-terms-choice.is-parent > div > div > label {
+  font-weight: bold;
+}
+
+div.editor-post-taxonomies__hierarchical-terms-subchoices {
+  display: none;
+}
+
+div.editor-post-taxonomies__hierarchical-terms-choice.open > div.editor-post-taxonomies__hierarchical-terms-subchoices {
+  display: block;
+}
+
+.editor-post-taxonomies__hierarchical-terms-choice .toggler,
+.editor-post-taxonomies__hierarchical-terms-subchoices .toggler {
+  float: right;
+  color: #666;
+  padding-top: 5px;
+  font:400 14px/1 dashicons !important;
+  cursor: pointer;
+}
+
+.editor-post-taxonomies__hierarchical-terms-choice .counter,
+.editor-post-taxonomies__hierarchical-terms-subchoices .counter {
+  float: right;
+  color: #666;
+  font-size: 11px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.editor-post-taxonomies__hierarchical-terms-choice div.editor-post-taxonomies__hierarchical-terms-choice.open > .toggler::after {
+  content: " \f460";
+}
+.editor-post-taxonomies__hierarchical-terms-choice .toggler::after,
+.editor-post-taxonomies__hierarchical-terms-subchoices .toggler::after {
   content: " \f132";
 }
