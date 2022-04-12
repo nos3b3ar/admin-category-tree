@@ -30,11 +30,13 @@ jQuery(document).ready( function($) {
 
 let categoriesLoaded = false;
 let categoriesLoadedInterval = setInterval(function() {
-    if (document.getElementById('inspector-checkbox-control-1')) { /* ID of first category-checkbox */
+    if (document.getElementById('inspector-checkbox-control-2')) { /* ID of first category-checkbox */
+        console.debug('start act-code');
 
         jQuery(document).ready( function($) {
 
           $('div.editor-post-taxonomies__hierarchical-terms-choice').each(function(){
+            console.debug('elem: '+$(this).find('label').html());
 
             if($(this).find('.editor-post-taxonomies__hierarchical-terms-subchoices').length){
               $(this).addClass('is-parent');
@@ -46,6 +48,8 @@ let categoriesLoadedInterval = setInterval(function() {
               if($(this).find("input:checked").length){
                 $(this).addClass('open');
                 count_selected = $(this).find("input:checked").length;
+              }else{
+                $(this).addClass('close');
               }
 
               if(count_childs){

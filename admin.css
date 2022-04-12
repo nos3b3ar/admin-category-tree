@@ -47,7 +47,11 @@ div.editor-post-taxonomies__hierarchical-terms-choice.is-parent > div > div > la
   font-weight: bold;
 }
 
-div.editor-post-taxonomies__hierarchical-terms-subchoices {
+/*div.editor-post-taxonomies__hierarchical-terms-subchoices {
+  display: none;
+}*/
+
+div.editor-post-taxonomies__hierarchical-terms-choice.open > div.editor-post-taxonomies__hierarchical-terms-subchoices {
   display: none;
 }
 
