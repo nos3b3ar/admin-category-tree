@@ -3,7 +3,7 @@
   "slug": "admin-category-tree",
   "author": "Stefan Andernach",
   "author_profile": "https://profiles.wordpress.org/nos3b3ar/",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "download_url": "https://github.com/nos3b3ar/admin-category-tree/archive/refs/heads/master.zip",
   "requires": "4.5.3",
   "tested": "5.9",

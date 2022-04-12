@@ -17,10 +17,10 @@ if ( ! defined( 'ABSPATH' ) ) die( 'No direct access allowed' );
 
 add_action( 'admin_enqueue_scripts', 'actree_enqueue_styles_and_scripts' );
 
-define('ACTREE_VERSION','1.4.1');
+define('ACTREE_VERSION','1.4.2');
 define('ACTREE_NAME','admin-category-tree');
 
-require_once dirname( __FILE__ ) ."/update-checker.php";
+include dirname( __FILE__ ) ."/update-checker.php";
 
 function actree_enqueue_styles_and_scripts($hook)
 {
